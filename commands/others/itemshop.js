@@ -1,25 +1,6 @@
 const { MessageEmbed } = require("discord.js");
 const { stripIndents } = require("common-tags");
 const request = require("request");
-const resizer = require('node-image-resizer');
-const wget = require('node-wget');
-var resizePngBuffer = require('resize-png-buffer')
-var fs = require('fs')
-const Jimp = require("jimp")
-const path = require('path');
-
-const setup = { 
-  all: {
-    path: 'C:/Users/aarav/Documents/StatsBot/',
-    quality: 80
-  },
-  versions: [{
-    prefix: 'medium_',
-    width: 200,
-    height: 256
-  }]
-};
- 
 
 module.exports = {
     name: "itemshop", 
