@@ -23,7 +23,7 @@ module.exports = {
             return message.reply("Whose mans am I tracking🤔")
         }
         
-        
+        // api call to get player stats
         const url =  'https://public-api.tracker.gg/apex/v1/standard/profile/' + platforms[platform] + '/' + name
 
         request(url, {
